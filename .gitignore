@@ -1,0 +1,36 @@
+# 忽略UE通用的临时/自动生成文件夹
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# 忽略常见临时文件
+*.log
+*.tmp
+
+# Mac 和 Windows 系统缓存
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Visual Studio/IDE缓存
+.vscode/
+.idea/
+/.vs/
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# 不要忽略美术资源等核心目录！
+# Content/
+# Config/
+
+# 其他自动生成的工程文件类型
+*.xcodeproj
+*.xcworkspace
+*.sln
+
+# 不要忽略任何自己的uasset、umap、ini等资源文件
